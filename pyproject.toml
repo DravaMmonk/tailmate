@@ -1,0 +1,86 @@
+[build-system]
+requires = ["setuptools>=80", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tailmate-app"
+version = "0.8.0"
+description = "Vertex AI Agent Engine baseline application for Tailmate."
+readme = "README.md"
+requires-python = "==3.11.*"
+dependencies = [
+    "alembic>=1.16.0",
+    "cryptography>=46.0.6",
+    "firebase-admin",
+    "flask>=3.0",
+    "google-adk==2.0.0a1",
+    "google-cloud-aiplatform>=1.142.0",
+    "google-cloud-secret-manager>=2.26.0",
+    "google-cloud-storage>=3.1.0",
+    "opentelemetry-api>=1.38.0",
+    "opentelemetry-exporter-gcp-trace>=1.11.0",
+    "opentelemetry-sdk>=1.38.0",
+    "pg8000>=1.31",
+    "pillow>=11.0.0",
+    "pydantic>=2.11.0",
+    "pydantic-settings>=2.10.0",
+    "pgvector>=0.3.6",
+    "python-dotenv>=1.1.1",
+    "psycopg2-binary>=2.9.11",
+    "requests>=2.33.0",
+    "sqlalchemy>=2.1.0b1",
+    "tenacity>=9.1.2",
+]
+
+[project.scripts]
+tailmate = "tailmate.entrypoints.cli:main"
+deploy-tailmate = "tailmate.entrypoints.deploy:main"
+
+[dependency-groups]
+dev = [
+    "bandit>=1.8",
+    "mypy>=1.10",
+    "pip-audit>=2.7",
+    "pytest>=9.0.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.15.8",
+]
+
+[tool.mypy]
+python_version = "3.11"
+files = [
+    "src/tailmate/contracts",
+    "src/tailmate/skills",
+    "src/tailmate/agent_runtime/ports",
+]
+show_error_codes = true
+warn_unused_ignores = true
+
+[tool.pytest.ini_options]
+addopts = [
+    "--cov=src/tailmate",
+    "--cov-report=term-missing",
+    "--cov-report=xml:coverage.xml",
+    "--cov-fail-under=70",
+]
+
+[tool.coverage.run]
+omit = [
+    "src/tailmate/entrypoints/deploy.py",
+    "src/tailmate/entrypoints/new_skill.py",
+    "src/tailmate/entrypoints/local_demo.py",
+]
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+targets = ["src"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"tailmate.agent_runtime.services" = ["*.json"]
+"tailmate.adapters.dog_profile" = ["data/*.json"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

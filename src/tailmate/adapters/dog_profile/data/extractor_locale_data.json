@@ -1,0 +1,882 @@
+{
+  "keyword_groups": {
+    "dog_context": {
+      "aliases_by_locale": {
+        "en": [
+          "my dog",
+          "our dog",
+          "the dog",
+          "my puppy",
+          "our puppy",
+          "doggo",
+          "pup",
+          "puppy"
+        ],
+        "zh-Hans": [
+          "我家狗",
+          "我家狗狗",
+          "狗狗",
+          "小狗",
+          "狗子",
+          "毛孩",
+          "它"
+        ],
+        "zh-Hant": [
+          "我家狗",
+          "我家狗狗",
+          "小狗",
+          "毛孩",
+          "牠"
+        ],
+        "yue": [
+          "我隻狗",
+          "我屋企隻狗",
+          "狗狗",
+          "毛孩",
+          "佢"
+        ],
+        "ar": [
+          "كلبي",
+          "الكلب",
+          "جراء"
+        ],
+        "vi": [
+          "con chó",
+          "chó của tôi",
+          "cún"
+        ],
+        "hi": [
+          "मेरा कुत्ता",
+          "मेरे कुत्ते",
+          "पपी"
+        ]
+      }
+    },
+    "dog_name_rejects": {
+      "aliases_by_locale": {
+        "en": [
+          "dog",
+          "puppy",
+          "ta"
+        ],
+        "zh-Hans": [
+          "狗",
+          "狗狗",
+          "小狗",
+          "它"
+        ]
+      }
+    },
+    "medical_trigger": {
+      "aliases_by_locale": {
+        "en": [
+          "surgery",
+          "allergy",
+          "allergic",
+          "sensitive to",
+          "medication",
+          "medications",
+          "meds",
+          "diagnosed",
+          "history of",
+          "diagnosis",
+          "acl",
+          "patella",
+          "cruciate",
+          "arthritis",
+          "cancer"
+        ],
+        "zh-Hans": [
+          "手术",
+          "过敏",
+          "在吃",
+          "正在用",
+          "药",
+          "病史",
+          "癌"
+        ]
+      }
+    },
+    "medical_history_trigger": {
+      "aliases_by_locale": {
+        "en": [
+          "surgery",
+          "history of",
+          "diagnosed",
+          "diagnosis"
+        ],
+        "zh-Hans": [
+          "手术",
+          "之前得过",
+          "病史"
+        ]
+      }
+    },
+    "raw_note_hint": {
+      "aliases_by_locale": {
+        "en": [
+          "thunder",
+          "vacuum",
+          "walk",
+          "crate",
+          "bark",
+          "routine",
+          "clingy",
+          "separation",
+          "couch"
+        ],
+        "zh-Hans": [
+          "怕打雷",
+          "怕吸尘器",
+          "散步",
+          "遛",
+          "笼",
+          "吠",
+          "作息",
+          "黏人",
+          "睡沙发"
+        ]
+      }
+    },
+    "numeric_counter_tokens": {
+      "aliases_by_locale": {
+        "zh-Hans": [
+          "个"
+        ],
+        "zh-Hant": [
+          "個"
+        ],
+        "yue": [
+          "個"
+        ]
+      }
+    },
+    "numeric_half_tokens": {
+      "aliases_by_locale": {
+        "zh-Hans": [
+          "半"
+        ],
+        "zh-Hant": [
+          "半"
+        ],
+        "yue": [
+          "半"
+        ]
+      }
+    },
+    "numeric_ten_tokens": {
+      "aliases_by_locale": {
+        "zh-Hans": [
+          "十"
+        ],
+        "zh-Hant": [
+          "十"
+        ],
+        "yue": [
+          "十"
+        ]
+      }
+    },
+    "birthdate_year_tokens": {
+      "aliases_by_locale": {
+        "zh-Hans": [
+          "年"
+        ],
+        "zh-Hant": [
+          "年"
+        ],
+        "yue": [
+          "年"
+        ]
+      }
+    },
+    "birthdate_month_tokens": {
+      "aliases_by_locale": {
+        "zh-Hans": [
+          "月"
+        ],
+        "zh-Hant": [
+          "月"
+        ],
+        "yue": [
+          "月"
+        ]
+      }
+    },
+    "birthdate_day_tokens": {
+      "aliases_by_locale": {
+        "zh-Hans": [
+          "日"
+        ],
+        "zh-Hant": [
+          "日"
+        ],
+        "yue": [
+          "日"
+        ]
+      }
+    },
+    "numeric_strip": {
+      "aliases_by_locale": {
+        "zh-Hans": [
+          "个"
+        ]
+      }
+    },
+    "numeric_half": {
+      "aliases_by_locale": {
+        "zh-Hans": [
+          "半"
+        ]
+      }
+    },
+    "numeric_ten": {
+      "aliases_by_locale": {
+        "zh-Hans": [
+          "十"
+        ]
+      }
+    }
+  },
+  "alias_groups": {
+    "sex": {
+      "male": {
+        "aliases_by_locale": {
+          "en": [
+            "male",
+            "boy",
+            "he"
+          ],
+          "zh-Hans": [
+            "公的",
+            "公狗",
+            "公犬",
+            "男孩",
+            "他"
+          ],
+          "zh-Hant": [
+            "公的",
+            "公狗",
+            "公犬",
+            "男孩",
+            "他"
+          ],
+          "yue": [
+            "公狗",
+            "男仔"
+          ],
+          "ar": [
+            "ذكر"
+          ],
+          "vi": [
+            "đực"
+          ],
+          "hi": [
+            "नर"
+          ]
+        }
+      },
+      "female": {
+        "aliases_by_locale": {
+          "en": [
+            "female",
+            "girl",
+            "she"
+          ],
+          "zh-Hans": [
+            "母的",
+            "母狗",
+            "母犬",
+            "女孩",
+            "她"
+          ],
+          "zh-Hant": [
+            "母的",
+            "母狗",
+            "母犬",
+            "女孩",
+            "她"
+          ],
+          "yue": [
+            "母狗",
+            "女仔"
+          ],
+          "ar": [
+            "أنثى"
+          ],
+          "vi": [
+            "cái"
+          ],
+          "hi": [
+            "मादा"
+          ]
+        }
+      }
+    },
+    "neutered": {
+      "negative": {
+        "aliases_by_locale": {
+          "en": [
+            "not desexed",
+            "not neutered",
+            "not spayed",
+            "intact"
+          ],
+          "zh-Hans": [
+            "未绝育",
+            "没绝育"
+          ],
+          "zh-Hant": [
+            "未絕育",
+            "沒絕育"
+          ],
+          "yue": [
+            "未絕育",
+            "冇絕育"
+          ],
+          "ar": [
+            "غير معقم"
+          ],
+          "vi": [
+            "chưa triệt sản"
+          ],
+          "hi": [
+            "नसबंदी नहीं हुई"
+          ]
+        }
+      },
+      "positive": {
+        "aliases_by_locale": {
+          "en": [
+            "desexed",
+            "neutered",
+            "spayed",
+            "fixed"
+          ],
+          "zh-Hans": [
+            "绝育",
+            "已绝育",
+            "做过绝育"
+          ],
+          "zh-Hant": [
+            "絕育",
+            "已絕育",
+            "做過絕育"
+          ],
+          "yue": [
+            "絕育",
+            "已絕育",
+            "做過絕育"
+          ],
+          "ar": [
+            "معقم"
+          ],
+          "vi": [
+            "đã triệt sản"
+          ],
+          "hi": [
+            "नसबंदी"
+          ]
+        }
+      }
+    },
+    "temperament": {
+      "anxious": {
+        "aliases_by_locale": {
+          "en": [
+            "afraid of thunder",
+            "thunder anxiety",
+            "anxious",
+            "nervous",
+            "shy around strangers"
+          ],
+          "zh-Hans": [
+            "怕打雷",
+            "胆小",
+            "怕生"
+          ],
+          "zh-Hant": [
+            "怕打雷",
+            "膽小",
+            "怕生"
+          ],
+          "yue": [
+            "怕打雷",
+            "膽小",
+            "怕生"
+          ]
+        }
+      },
+      "high_energy": {
+        "aliases_by_locale": {
+          "en": [
+            "energetic",
+            "hyper",
+            "always on the go"
+          ],
+          "zh-Hans": [
+            "活泼",
+            "好动",
+            "闲不住"
+          ],
+          "zh-Hant": [
+            "活潑",
+            "好動",
+            "閒不住"
+          ],
+          "yue": [
+            "活潑",
+            "好動",
+            "閒唔住"
+          ]
+        }
+      },
+      "affectionate": {
+        "aliases_by_locale": {
+          "en": [
+            "affectionate",
+            "clingy",
+            "cuddly"
+          ],
+          "zh-Hans": [
+            "粘人",
+            "爱撒娇"
+          ],
+          "zh-Hant": [
+            "黏人",
+            "愛撒嬌"
+          ],
+          "yue": [
+            "痴身",
+            "黏人",
+            "愛撒嬌"
+          ]
+        }
+      },
+      "reactive": {
+        "aliases_by_locale": {
+          "en": [
+            "aggressive",
+            "reactive",
+            "bites people"
+          ],
+          "zh-Hans": [
+            "凶",
+            "咬人"
+          ],
+          "zh-Hant": [
+            "兇",
+            "咬人"
+          ],
+          "yue": [
+            "惡",
+            "咬人"
+          ]
+        }
+      }
+    },
+    "activity_level": {
+      "high": {
+        "aliases_by_locale": {
+          "en": [
+            "very active",
+            "high energy",
+            "runs every day",
+            "needs lots of exercise"
+          ],
+          "zh-Hans": [
+            "每天跑步",
+            "运动量大",
+            "精力旺盛"
+          ],
+          "zh-Hant": [
+            "每天跑步",
+            "運動量大",
+            "精力旺盛"
+          ],
+          "yue": [
+            "每日跑步",
+            "運動量大",
+            "精力旺盛"
+          ]
+        }
+      },
+      "moderate": {
+        "aliases_by_locale": {
+          "en": [
+            "moderate",
+            "normal walks",
+            "regular walks"
+          ],
+          "zh-Hans": [
+            "正常遛狗",
+            "正常散步"
+          ],
+          "zh-Hant": [
+            "正常遛狗",
+            "正常散步"
+          ],
+          "yue": [
+            "正常遛狗",
+            "正常散步"
+          ]
+        }
+      },
+      "low": {
+        "aliases_by_locale": {
+          "en": [
+            "low energy",
+            "lazy",
+            "couch potato"
+          ],
+          "zh-Hans": [
+            "不爱动",
+            "懒"
+          ],
+          "zh-Hant": [
+            "不愛動",
+            "懶"
+          ],
+          "yue": [
+            "唔愛郁",
+            "懶"
+          ]
+        }
+      }
+    },
+    "diet": {
+      "raw": {
+        "aliases_by_locale": {
+          "en": [
+            "raw diet",
+            "barf",
+            "raw fed"
+          ],
+          "zh-Hans": [
+            "生骨肉"
+          ],
+          "zh-Hant": [
+            "生骨肉"
+          ],
+          "yue": [
+            "生骨肉"
+          ]
+        }
+      },
+      "dry": {
+        "aliases_by_locale": {
+          "en": [
+            "kibble",
+            "dry food",
+            "dry diet"
+          ],
+          "zh-Hans": [
+            "狗粮",
+            "干粮"
+          ],
+          "zh-Hant": [
+            "狗糧",
+            "乾糧"
+          ],
+          "yue": [
+            "狗糧",
+            "乾糧"
+          ]
+        }
+      },
+      "wet": {
+        "aliases_by_locale": {
+          "en": [
+            "wet food",
+            "canned food"
+          ],
+          "zh-Hans": [
+            "罐头",
+            "湿粮"
+          ],
+          "zh-Hant": [
+            "罐頭",
+            "濕糧"
+          ],
+          "yue": [
+            "罐頭",
+            "濕糧"
+          ]
+        }
+      },
+      "homemade": {
+        "aliases_by_locale": {
+          "en": [
+            "home cooked",
+            "homemade"
+          ],
+          "zh-Hans": [
+            "自制",
+            "家里做"
+          ],
+          "zh-Hant": [
+            "自製",
+            "家裡做"
+          ],
+          "yue": [
+            "自製",
+            "屋企整"
+          ]
+        }
+      },
+      "prescription": {
+        "aliases_by_locale": {
+          "en": [
+            "prescription diet",
+            "vet diet"
+          ],
+          "zh-Hans": [
+            "处方粮"
+          ],
+          "zh-Hant": [
+            "處方糧"
+          ],
+          "yue": [
+            "處方糧"
+          ]
+        }
+      }
+    },
+    "fuzzy_age": {
+      "puppy": {
+        "aliases_by_locale": {
+          "en": [
+            "puppy"
+          ],
+          "zh-Hans": [
+            "幼犬"
+          ],
+          "zh-Hant": [
+            "幼犬"
+          ],
+          "yue": [
+            "幼犬"
+          ]
+        }
+      },
+      "senior": {
+        "aliases_by_locale": {
+          "en": [
+            "senior",
+            "elderly dog"
+          ],
+          "zh-Hans": [
+            "老年犬"
+          ],
+          "zh-Hant": [
+            "老年犬"
+          ],
+          "yue": [
+            "老狗",
+            "老年犬"
+          ]
+        }
+      }
+    }
+  },
+  "regex_groups": {
+    "clause_split": {
+      "patterns_by_locale": {
+        "shared": [
+          "[，。,.!?！？;；\\n]+"
+        ]
+      }
+    },
+    "text_split": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "shared": [
+          "\\s*(?:,|，|/|、|;|；|\\band\\b|\\bwith\\b|和|及)\\s*"
+        ]
+      }
+    },
+    "kg": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "shared": [
+          "(?P<value>\\d+(?:\\.\\d+)?)\\s*(?:公斤|千克|kg|kgs?)\\b"
+        ]
+      }
+    },
+    "jin": {
+      "patterns_by_locale": {
+        "zh-Hans": [
+          "(?P<value>\\d+(?:\\.\\d+)?)\\s*斤"
+        ]
+      }
+    },
+    "lb": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "shared": [
+          "(?P<value>\\d+(?:\\.\\d+)?)\\s*(?:lb|lbs|pounds?|磅)\\b"
+        ]
+      }
+    },
+    "birthdate": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "zh-Hans": [
+          "(?:出生于|生于)\\s*(?P<date>\\d{4}[年/\\-.]\\d{1,2}[月/\\-.]\\d{1,2}日?)"
+        ],
+        "en": [
+          "(?:born on|born in)\\s*(?P<date>\\d{4}[./-]\\d{1,2}[./-]\\d{1,2})"
+        ]
+      }
+    },
+    "age_month_half": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "zh-Hans": [
+          "(?P<value>[一二三四五六七八九十两\\d]+)\\s*个半月"
+        ],
+        "en": [
+          "(?P<value>[一二三四五六七八九十两\\d]+)\\s*(?:months?|mos?|mo)\\s+and\\s+a\\s+half"
+        ]
+      }
+    },
+    "age_month": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "shared": [
+          "(?P<value>[一二三四五六七八九十两\\d]+(?:\\.\\d+)?)\\s*(?:个月|月|months?|mos?|mo)\\b"
+        ]
+      }
+    },
+    "age_year": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "shared": [
+          "(?P<value>[一二三四五六七八九十两\\d]+(?:\\.\\d+)?)\\s*(?:岁|years?|yrs?|yo|y/o)\\s*(?P<half>half|半)?",
+          "(?P<value>[一二三四五六七八九十两\\d]+)\\s*岁半"
+        ]
+      }
+    },
+    "allergy": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "zh-Hans": [
+          "对\\s*(?P<value>[^，。,.!?！？;；\\n]+?)\\s*过敏"
+        ],
+        "en": [
+          "(?:allergic to|allergy to|sensitive to)\\s+(?P<value>[^，。,.!?！？;；\\n]+)"
+        ]
+      }
+    },
+    "medication": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "zh-Hans": [
+          "(?:在吃|正在用|在用)\\s*(?P<value>[^，。,.!?！？;；\\n]+)"
+        ],
+        "en": [
+          "(?:currently taking|taking|currently on)\\s*(?P<value>[^，。,.!?！？;；\\n]+)",
+          "(?:medication|medications|meds?)\\s*[:：]?\\s*(?P<value>[^，。,.!?！？;；\\n]+)"
+        ]
+      }
+    },
+    "medical_history": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "zh-Hans": [
+          "(?P<value>[^，。,.!?！？;；\\n]+做过手术)"
+        ],
+        "en": [
+          "(?:history of|diagnosed with|previously had)\\s+(?P<value>[^，。,.!?！？;；\\n]+)"
+        ]
+      }
+    },
+    "dog_name": {
+      "flags": [
+        "IGNORECASE"
+      ],
+      "patterns_by_locale": {
+        "zh-Hans": [
+          "(?:我家|我的)\\s*([A-Za-z0-9\\u4e00-\\u9fff_-]{1,20})\\s*是",
+          "(?:我家|我的)?(?:狗狗|小狗|狗子|狗).*?(?:叫|名叫|名字叫|是)\\s*([A-Za-z0-9\\u4e00-\\u9fff_-]{1,20})"
+        ],
+        "en": [
+          "my dog\\s+([A-Za-z][A-Za-z0-9_-]{0,19})\\s+(?:is|was)",
+          "(?:my dog(?:'s name)?\\s*(?:is|=)|dog named|called)\\s+([A-Za-z][A-Za-z0-9_-]{0,19})"
+        ],
+        "shared": [
+          "^([A-Za-z0-9\\u4e00-\\u9fff_-]{1,20})\\s*(?:是|,|，).*(?:岁|月|公斤|kg|手术|过敏|绝育|surgery|allergic)"
+        ]
+      }
+    }
+  },
+  "regex_label_groups": {
+    "sex_single_token": {
+      "male": {
+        "patterns_by_locale": {
+          "zh-Hans": [
+            "(?:^|[\\s，。,.!?！？;；:：/()（）]|是)公(?:$|[\\s，。,.!?！？;；:：/()（）])"
+          ]
+        }
+      },
+      "female": {
+        "patterns_by_locale": {
+          "zh-Hans": [
+            "(?:^|[\\s，。,.!?！？;；:：/()（）]|是)母(?:$|[\\s，。,.!?！？;；:：/()（）])"
+          ]
+        }
+      }
+    }
+  },
+  "value_maps": {
+    "chinese_digits": {
+      "mappings_by_locale": {
+        "zh-Hans": {
+          "零": 0,
+          "一": 1,
+          "二": 2,
+          "两": 2,
+          "三": 3,
+          "四": 4,
+          "五": 5,
+          "六": 6,
+          "七": 7,
+          "八": 8,
+          "九": 9,
+          "十": 10
+        }
+      }
+    }
+  },
+  "string_maps": {
+    "birthdate_normalization": {
+      "mappings_by_locale": {
+        "zh-Hans": {
+          "年": "-",
+          "月": "-",
+          "日": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "keyword_groups": {
+    "greeting": {
+      "aliases_by_locale": {
+        "en-AU": ["hi", "hello", "hey", "good morning", "good afternoon", "g'day", "hi there", "morning", "afternoon"],
+        "zh-Hans": ["你好", "您好", "嗨", "哈喽", "哈囉", "早上好", "下午好", "晚上好"],
+        "ar": ["مرحبا", "أهلا", "اهلا", "السلام عليكم"],
+        "vi": ["xin chào", "xin chao", "chào", "chao", "hello", "hi"],
+        "yue": ["你好", "哈囉", "嗨", "早晨", "你好呀", "喂"],
+        "hi": ["नमस्ते", "नमस्कार", "हेलो", "हाय"]
+      }
+    },
+    "capability": {
+      "aliases_by_locale": {
+        "en-AU": ["what can you do", "can you help", "help me", "features"],
+        "zh-Hans": ["能做什么", "可以做什么", "帮我", "功能", "会什么", "会修改", "能修改", "可以修改", "能更新", "能帮我改"],
+        "ar": ["ماذا يمكنك", "بماذا تساعد", "هل تستطيع", "ساعدني"],
+        "vi": ["bạn có thể làm gì", "ban co the lam gi", "giúp tôi", "giup toi", "chức năng"],
+        "yue": ["可以做啲咩", "可以做什么", "幫到我", "功能"],
+        "hi": ["क्या कर सकते", "क्या कर सकती", "मदद", "क्या करोगे"]
+      }
+    },
+    "profile_recall_reference": {
+      "aliases_by_locale": {
+        "all": [
+          "my dog",
+          "my dog's",
+          "my dogs",
+          "my pup",
+          "my puppy",
+          "dog profile",
+          "叫什么",
+          "叫什麼",
+          "你认识",
+          "你認識",
+          "我的狗",
+          "我家狗",
+          "我隻狗",
+          "叫咩名",
+          "呢隻狗"
+        ]
+      }
+    },
+    "profile_recall_question": {
+      "aliases_by_locale": {
+        "all": [
+          "what",
+          "who",
+          "do you know",
+          "tell me about",
+          "what do you know",
+          "what can you tell me",
+          "how old",
+          "how much does",
+          "what breed",
+          "which breed",
+          "what information",
+          "what info",
+          "name",
+          "breed",
+          "age",
+          "weight",
+          "temperament",
+          "medical",
+          "叫什么",
+          "叫什麼",
+          "几岁",
+          "幾歲",
+          "多少岁",
+          "多少歲",
+          "品种",
+          "品種",
+          "什么信息",
+          "什麼信息",
+          "哪些信息",
+          "哪些資料",
+          "有什么信息",
+          "有什麼資料",
+          "告诉我关于",
+          "告訴我關於",
+          "介绍一下",
+          "介紹一下",
+          "你认识",
+          "你認識",
+          "叫咩名",
+          "咩資料",
+          "幾多歲",
+          "有咩資料",
+          "介紹下",
+          "bao nhiêu tuổi",
+          "mấy tuổi",
+          "may tuoi",
+          "biết gì",
+          "biet gi",
+          "thông tin",
+          "thong tin",
+          "giới thiệu về",
+          "gioi thieu ve",
+          "cân nặng",
+          "can nang",
+          "giống gì",
+          "giong gi",
+          "ماذا تعرف",
+          "ما الذي تعرفه",
+          "ما هي المعلومات",
+          "كم عمر",
+          "كم وزن",
+          "أخبرني عن",
+          "क्या पता",
+          "क्या जानते",
+          "क्या जानती",
+          "क्या जानकारी",
+          "कितनी उम्र",
+          "कितना वजन",
+          "के बारे में बताओ",
+          "जानकारी"
+        ]
+      }
+    },
+    "question": {
+      "aliases_by_locale": {
+        "all": ["?", "？"]
+      }
+    },
+    "question_lead": {
+      "aliases_by_locale": {
+        "all": ["should", "can", "is", "what", "how", "why", "would", "could", "do i", "do you"]
+      }
+    },
+    "inline_question": {
+      "aliases_by_locale": {
+        "all": ["该", "應該", "应该", "怎么", "點樣", "为什么", "為什麼", "是否", "係咪"]
+      }
+    },
+    "follow_up_reference": {
+      "aliases_by_locale": {
+        "en-AU": ["it", "they", "them", "that", "this", "those", "these", "he", "she", "him", "her"],
+        "zh-Hans": ["这", "那", "它", "他", "她", "它们", "这个", "那个"],
+        "ar": ["هذا", "هذه", "ذلك", "تلك", "هو", "هي", "هم", "ها"],
+        "vi": ["đó", "do", "này", "nay", "nó", "no", "anh ấy", "cô ấy"],
+        "yue": ["呢個", "呢个", "嗰個", "嗰个", "佢", "呢啲", "嗰啲"],
+        "hi": ["यह", "वह", "ये", "वे", "उस", "इस", "वो"]
+      }
+    },
+    "dog_switch": {
+      "aliases_by_locale": {
+        "en-AU": ["switch to", "change to", "talk about", "ask about", "focus on"],
+        "zh-Hans": ["换成", "切换到", "改成", "聊聊", "说说"],
+        "ar": ["حوّل إلى", "بدّل إلى", "تحدث عن", "ركّز على"],
+        "vi": ["chuyển sang", "đổi sang", "nói về", "chuyển qua"],
+        "yue": ["換成", "切換到", "轉做", "講下", "轉去"],
+        "hi": ["बदल दो", "इस पर आओ", "बात करो", "इसी पर रहो"]
+      }
+    }
+  }
+}

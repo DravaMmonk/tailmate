@@ -1,0 +1,25 @@
+steps:
+  - name: python:3.11-slim
+    entrypoint: bash
+    args:
+      - -lc
+      - |
+        set -euo pipefail
+        pip install --no-cache-dir uv==0.10.11
+        uv sync --frozen --no-dev
+        if [ -n "${_ALEMBIC_DATABASE_URL:-}" ]; then
+          export TAILMATE_ALEMBIC_DATABASE_URL="${_ALEMBIC_DATABASE_URL}"
+          uv run alembic check
+        else
+          echo "Skipping alembic check because _ALEMBIC_DATABASE_URL is not set for this build environment."
+        fi
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - tailmate-db-gateway/Dockerfile
+      - -t
+      - ${_IMAGE}
+      - .
+images:
+  - ${_IMAGE}

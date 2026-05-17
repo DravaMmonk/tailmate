@@ -1,0 +1,1 @@
+"""Tailmate application package."""

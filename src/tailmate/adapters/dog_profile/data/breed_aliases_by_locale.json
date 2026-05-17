@@ -1,0 +1,1727 @@
+{
+  "labrador_retriever": {
+    "canonical": "Labrador Retriever",
+    "aliases_by_locale": {
+      "en": [
+        "labrador retriever",
+        "labrador",
+        "lab",
+        "labs"
+      ],
+      "zh-Hans": [
+        "拉布拉多",
+        "拉布拉多犬",
+        "拉拉"
+      ],
+      "zh-Hant": [
+        "拉布拉多",
+        "拉布拉多犬",
+        "拉拉"
+      ],
+      "yue": [
+        "拉布拉多",
+        "拉布拉多尋回犬"
+      ],
+      "ar": [
+        "لابرادور",
+        "لاب"
+      ],
+      "vi": [
+        "labrador",
+        "chó labrador"
+      ],
+      "hi": [
+        "लैब्राडोर",
+        "लैब"
+      ]
+    }
+  },
+  "golden_retriever": {
+    "canonical": "Golden Retriever",
+    "aliases_by_locale": {
+      "en": [
+        "golden retriever",
+        "golden",
+        "goldie"
+      ],
+      "zh-Hans": [
+        "金毛",
+        "金毛寻回犬",
+        "金毛犬"
+      ],
+      "zh-Hant": [
+        "金毛",
+        "金毛尋回犬",
+        "金毛犬"
+      ],
+      "yue": [
+        "金毛",
+        "金毛尋回犬"
+      ],
+      "ar": [
+        "غولدن ريتريفر",
+        "غولدن"
+      ],
+      "vi": [
+        "golden retriever",
+        "chó golden"
+      ],
+      "hi": [
+        "गोल्डन रिट्रीवर",
+        "गोल्डी"
+      ]
+    }
+  },
+  "french_bulldog": {
+    "canonical": "French Bulldog",
+    "aliases_by_locale": {
+      "en": [
+        "french bulldog",
+        "frenchie",
+        "french bull",
+        "frenchie bulldog"
+      ],
+      "zh-Hans": [
+        "法斗",
+        "法国斗牛犬",
+        "法式斗牛犬",
+        "法牛"
+      ],
+      "zh-Hant": [
+        "法鬥",
+        "法國鬥牛犬",
+        "法式鬥牛犬",
+        "法牛"
+      ],
+      "yue": [
+        "法鬥",
+        "法國鬥牛犬",
+        "法牛"
+      ],
+      "ar": [
+        "بولدوغ فرنسي",
+        "فرينشي"
+      ],
+      "vi": [
+        "chó bulldog pháp",
+        "frenchie"
+      ],
+      "hi": [
+        "फ्रेंच बुलडॉग",
+        "फ्रेंची"
+      ]
+    }
+  },
+  "cavoodle": {
+    "canonical": "Cavoodle",
+    "aliases_by_locale": {
+      "en": [
+        "cavoodle",
+        "cavapoo",
+        "cavie",
+        "cavy",
+        "cavoodle puppy"
+      ],
+      "zh-Hans": [
+        "卡瓦多尔",
+        "贵宾骑士",
+        "骑士贵宾"
+      ],
+      "zh-Hant": [
+        "卡瓦多爾",
+        "貴賓騎士",
+        "騎士貴賓"
+      ],
+      "yue": [
+        "卡瓦多爾",
+        "騎士貴賓"
+      ],
+      "ar": [
+        "كافودل",
+        "كافابو"
+      ],
+      "vi": [
+        "cavoodle",
+        "chó cỏ va"
+      ],
+      "hi": [
+        "कैवडल",
+        "कैवापू"
+      ]
+    }
+  },
+  "border_collie": {
+    "canonical": "Border Collie",
+    "aliases_by_locale": {
+      "en": [
+        "border collie",
+        "border collies",
+        "borderie"
+      ],
+      "zh-Hans": [
+        "边境牧羊犬",
+        "边牧"
+      ],
+      "zh-Hant": [
+        "邊境牧羊犬",
+        "邊牧"
+      ],
+      "yue": [
+        "邊牧",
+        "邊境牧羊犬"
+      ],
+      "ar": [
+        "كولي بوردر",
+        "بوردر كولي"
+      ],
+      "vi": [
+        "border collie",
+        "chó collie biên giới"
+      ],
+      "hi": [
+        "बॉर्डर कोली"
+      ]
+    }
+  },
+  "australian_shepherd": {
+    "canonical": "Australian Shepherd",
+    "aliases_by_locale": {
+      "en": [
+        "australian shepherd",
+        "aussie shepherd",
+        "aussie"
+      ],
+      "zh-Hans": [
+        "澳洲牧羊犬",
+        "澳牧"
+      ],
+      "zh-Hant": [
+        "澳洲牧羊犬",
+        "澳牧"
+      ],
+      "yue": [
+        "澳洲牧羊犬",
+        "澳牧"
+      ],
+      "ar": [
+        "أستراليان شيبرد",
+        "أوسي"
+      ],
+      "vi": [
+        "chó chăn cừu úc",
+        "aussie"
+      ],
+      "hi": [
+        "ऑस्ट्रेलियन शेफर्ड",
+        "ऑसी"
+      ]
+    }
+  },
+  "australian_cattle_dog": {
+    "canonical": "Australian Cattle Dog",
+    "aliases_by_locale": {
+      "en": [
+        "australian cattle dog",
+        "acd",
+        "blue heeler",
+        "red heeler"
+      ],
+      "zh-Hans": [
+        "澳洲牧牛犬",
+        "蓝赫勒",
+        "红赫勒"
+      ],
+      "zh-Hant": [
+        "澳洲牧牛犬",
+        "藍赫勒",
+        "紅赫勒"
+      ],
+      "yue": [
+        "澳洲牧牛犬",
+        "藍赫勒",
+        "紅赫勒"
+      ],
+      "ar": [
+        "كلب ماشية أسترالي",
+        "هيـلر"
+      ],
+      "vi": [
+        "chó chăn bò úc",
+        "blue heeler"
+      ],
+      "hi": [
+        "ऑस्ट्रेलियन कैटल डॉग",
+        "हीलर"
+      ]
+    }
+  },
+  "australian_kelpie": {
+    "canonical": "Australian Kelpie",
+    "aliases_by_locale": {
+      "en": [
+        "australian kelpie",
+        "kelpie",
+        "aussie kelpie"
+      ],
+      "zh-Hans": [
+        "澳洲凯尔皮",
+        "凯尔皮"
+      ],
+      "zh-Hant": [
+        "澳洲凱爾皮",
+        "凱爾皮"
+      ],
+      "yue": [
+        "澳洲凱爾皮",
+        "凱爾皮"
+      ],
+      "ar": [
+        "كيلبي أسترالي",
+        "كيلبي"
+      ],
+      "vi": [
+        "kelpie úc",
+        "chó kelpie"
+      ],
+      "hi": [
+        "ऑस्ट्रेलियन केल्पी"
+      ]
+    }
+  },
+  "staffordshire_bull_terrier": {
+    "canonical": "Staffordshire Bull Terrier",
+    "aliases_by_locale": {
+      "en": [
+        "staffordshire bull terrier",
+        "staffy",
+        "staffie",
+        "stafford"
+      ],
+      "zh-Hans": [
+        "斯塔福郡斗牛犬",
+        "斯塔福",
+        "staffy"
+      ],
+      "zh-Hant": [
+        "斯塔福郡鬥牛犬",
+        "斯塔福",
+        "staffy"
+      ],
+      "yue": [
+        "斯塔福郡鬥牛犬",
+        "斯塔福",
+        "staffy"
+      ],
+      "ar": [
+        "ستافوردشاير بول تيرير",
+        "ستافي"
+      ],
+      "vi": [
+        "staffy",
+        "chó stafford"
+      ],
+      "hi": [
+        "स्टैफ़ी",
+        "स्टैफ़ोर्डशर बुल टेरियर"
+      ]
+    }
+  },
+  "american_staffordshire_terrier": {
+    "canonical": "American Staffordshire Terrier",
+    "aliases_by_locale": {
+      "en": [
+        "american staffordshire terrier",
+        "amstaff",
+        "american staffy"
+      ],
+      "zh-Hans": [
+        "美国斯塔福郡梗",
+        "美斯塔福"
+      ],
+      "zh-Hant": [
+        "美國斯塔福郡梗",
+        "美斯塔福"
+      ],
+      "yue": [
+        "美國斯塔福郡梗",
+        "美斯塔福"
+      ],
+      "ar": [
+        "أمريكان ستافوردشاير تيرير",
+        "أمستاف"
+      ],
+      "vi": [
+        "amstaff",
+        "chó amstaff"
+      ],
+      "hi": [
+        "अमेरिकन स्टैफ़र्डशायर टेरियर",
+        "एमस्टाफ"
+      ]
+    }
+  },
+  "beagle": {
+    "canonical": "Beagle",
+    "aliases_by_locale": {
+      "en": [
+        "beagle",
+        "beagles"
+      ],
+      "zh-Hans": [
+        "比格犬",
+        "比格"
+      ],
+      "zh-Hant": [
+        "比格犬",
+        "比格"
+      ],
+      "yue": [
+        "比格"
+      ],
+      "ar": [
+        "بيغل"
+      ],
+      "vi": [
+        "beagle",
+        "chó beagle"
+      ],
+      "hi": [
+        "बीगल"
+      ]
+    }
+  },
+  "cavalier_king_charles_spaniel": {
+    "canonical": "Cavalier King Charles Spaniel",
+    "aliases_by_locale": {
+      "en": [
+        "cavalier king charles spaniel",
+        "cavalier",
+        "cav",
+        "king charles spaniel"
+      ],
+      "zh-Hans": [
+        "骑士查理王小猎犬",
+        "骑士王查理",
+        "骑士"
+      ],
+      "zh-Hant": [
+        "騎士查理王小獵犬",
+        "騎士王查理",
+        "騎士"
+      ],
+      "yue": [
+        "查理斯王小獵犬"
+      ],
+      "ar": [
+        "كاڤاليير",
+        "كاڤاليير كينغ تشارلز"
+      ],
+      "vi": [
+        "cavalier",
+        "chó cavalier"
+      ],
+      "hi": [
+        "कैवेलियर किंग चार्ल्स स्पैनियल"
+      ]
+    }
+  },
+  "dachshund": {
+    "canonical": "Dachshund",
+    "aliases_by_locale": {
+      "en": [
+        "dachshund",
+        "doxie",
+        "sausage dog",
+        "wiener dog"
+      ],
+      "zh-Hans": [
+        "腊肠犬",
+        "德国腊肠犬"
+      ],
+      "zh-Hant": [
+        "臘腸犬",
+        "德國臘腸犬"
+      ],
+      "yue": [
+        "臘腸狗",
+        "臘腸犬"
+      ],
+      "ar": [
+        "داشهند",
+        "كلب النقانق"
+      ],
+      "vi": [
+        "dachshund",
+        "chó xúc xích"
+      ],
+      "hi": [
+        "डैचशुंड",
+        "सॉसेज डॉग"
+      ]
+    }
+  },
+  "shih_tzu": {
+    "canonical": "Shih Tzu",
+    "aliases_by_locale": {
+      "en": [
+        "shih tzu",
+        "shihtzu",
+        "shitz",
+        "little lion dog"
+      ],
+      "zh-Hans": [
+        "西施犬",
+        "狮子狗",
+        "西施"
+      ],
+      "zh-Hant": [
+        "西施犬",
+        "獅子狗",
+        "西施"
+      ],
+      "yue": [
+        "西施犬",
+        "獅子狗",
+        "西施"
+      ],
+      "ar": [
+        "شيه تزو"
+      ],
+      "vi": [
+        "shih tzu",
+        "chó shih tzu"
+      ],
+      "hi": [
+        "शिह त्ज़ु",
+        "लिटिल लायन डॉग"
+      ]
+    }
+  },
+  "maltese": {
+    "canonical": "Maltese",
+    "aliases_by_locale": {
+      "en": [
+        "maltese",
+        "maltie",
+        "malty"
+      ],
+      "zh-Hans": [
+        "马尔济斯",
+        "马耳他犬"
+      ],
+      "zh-Hant": [
+        "馬爾濟斯",
+        "馬耳他犬"
+      ],
+      "yue": [
+        "瑪爾濟斯"
+      ],
+      "ar": [
+        "مالتيز"
+      ],
+      "vi": [
+        "maltese",
+        "chó maltese"
+      ],
+      "hi": [
+        "माल्टीज़"
+      ]
+    }
+  },
+  "bichon_frise": {
+    "canonical": "Bichon Frise",
+    "aliases_by_locale": {
+      "en": [
+        "bichon frise",
+        "bichon",
+        "bishon"
+      ],
+      "zh-Hans": [
+        "比熊犬",
+        "比熊"
+      ],
+      "zh-Hant": [
+        "比熊犬",
+        "比熊"
+      ],
+      "yue": [
+        "比熊犬",
+        "比熊"
+      ],
+      "ar": [
+        "بيشون فريز",
+        "بيشون"
+      ],
+      "vi": [
+        "bichon frise",
+        "chó bichon"
+      ],
+      "hi": [
+        "बिचॉन फ्रिज़"
+      ]
+    }
+  },
+  "siberian_husky": {
+    "canonical": "Siberian Husky",
+    "aliases_by_locale": {
+      "en": [
+        "siberian husky",
+        "husky",
+        "sibe"
+      ],
+      "zh-Hans": [
+        "西伯利亚雪橇犬",
+        "哈士奇"
+      ],
+      "zh-Hant": [
+        "西伯利亞雪橇犬",
+        "哈士奇"
+      ],
+      "yue": [
+        "西伯利亞雪橇犬",
+        "哈士奇"
+      ],
+      "ar": [
+        "هاسكي",
+        "هاسكي سيبيري"
+      ],
+      "vi": [
+        "husky",
+        "chó husky"
+      ],
+      "hi": [
+        "हस्की",
+        "साइबेरियन हस्की"
+      ]
+    }
+  },
+  "shiba_inu": {
+    "canonical": "Shiba Inu",
+    "aliases_by_locale": {
+      "en": [
+        "shiba inu",
+        "shiba",
+        "shibe"
+      ],
+      "zh-Hans": [
+        "柴犬",
+        "芝麻柴"
+      ],
+      "zh-Hant": [
+        "柴犬",
+        "芝麻柴"
+      ],
+      "yue": [
+        "柴犬"
+      ],
+      "ar": [
+        "شيبا اينو",
+        "شيبا"
+      ],
+      "vi": [
+        "shiba inu",
+        "chó shiba"
+      ],
+      "hi": [
+        "शिबा इनु"
+      ]
+    }
+  },
+  "welsh_corgi": {
+    "canonical": "Corgi",
+    "aliases_by_locale": {
+      "en": [
+        "welsh corgi",
+        "corgi",
+        "corgo"
+      ],
+      "zh-Hans": [
+        "柯基",
+        "威尔士柯基犬"
+      ],
+      "zh-Hant": [
+        "柯基",
+        "威爾士柯基犬"
+      ],
+      "yue": [
+        "柯基",
+        "哥基"
+      ],
+      "ar": [
+        "كورجي",
+        "كورجي ويلزي"
+      ],
+      "vi": [
+        "corgi",
+        "chó corgi"
+      ],
+      "hi": [
+        "कॉर्गी",
+        "वेल्श कॉर्गी"
+      ]
+    }
+  },
+  "pomeranian": {
+    "canonical": "Pomeranian",
+    "aliases_by_locale": {
+      "en": [
+        "pomeranian",
+        "pom",
+        "pomer",
+        "pom pom"
+      ],
+      "zh-Hans": [
+        "博美",
+        "博美犬"
+      ],
+      "zh-Hant": [
+        "博美",
+        "博美犬"
+      ],
+      "yue": [
+        "波美",
+        "博美"
+      ],
+      "ar": [
+        "بوميرانيان",
+        "بوم"
+      ],
+      "vi": [
+        "pomeranian",
+        "chó pom"
+      ],
+      "hi": [
+        "पोमेरेनियन",
+        "पॉम"
+      ]
+    }
+  },
+  "chihuahua": {
+    "canonical": "Chihuahua",
+    "aliases_by_locale": {
+      "en": [
+        "chihuahua",
+        "chiwawa",
+        "chihuaha",
+        "chi"
+      ],
+      "zh-Hans": [
+        "吉娃娃",
+        "奇瓦瓦"
+      ],
+      "zh-Hant": [
+        "吉娃娃",
+        "奇瓦瓦"
+      ],
+      "yue": [
+        "吉娃娃",
+        "奇瓦瓦"
+      ],
+      "ar": [
+        "تشيهواهوا",
+        "تشي واوا"
+      ],
+      "vi": [
+        "chihuahua",
+        "chó chihuahua"
+      ],
+      "hi": [
+        "चिहुआहुआ",
+        "ची"
+      ]
+    }
+  },
+  "miniature_schnauzer": {
+    "canonical": "Miniature Schnauzer",
+    "aliases_by_locale": {
+      "en": [
+        "miniature schnauzer",
+        "mini schnauzer",
+        "schnauzer"
+      ],
+      "zh-Hans": [
+        "迷你雪纳瑞",
+        "雪纳瑞"
+      ],
+      "zh-Hant": [
+        "迷你雪納瑞",
+        "雪納瑞"
+      ],
+      "yue": [
+        "迷你雪納瑞",
+        "雪納瑞"
+      ],
+      "ar": [
+        "شنوزر صغير",
+        "شنوزر"
+      ],
+      "vi": [
+        "schnauzer",
+        "chó schnauzer"
+      ],
+      "hi": [
+        "मिनीचर श्नौज़र"
+      ]
+    }
+  },
+  "german_shepherd": {
+    "canonical": "German Shepherd",
+    "aliases_by_locale": {
+      "en": [
+        "german shepherd",
+        "gsd",
+        "shepherd",
+        "german shepherd dog"
+      ],
+      "zh-Hans": [
+        "德国牧羊犬",
+        "德牧"
+      ],
+      "zh-Hant": [
+        "德國牧羊犬",
+        "德牧"
+      ],
+      "yue": [
+        "德國牧羊犬",
+        "德牧"
+      ],
+      "ar": [
+        "راعي ألماني",
+        "جيرمن شيبرد"
+      ],
+      "vi": [
+        "chó chăn cừu đức",
+        "german shepherd"
+      ],
+      "hi": [
+        "जर्मन शेफर्ड",
+        "जीएसडी"
+      ]
+    }
+  },
+  "boxer": {
+    "canonical": "Boxer",
+    "aliases_by_locale": {
+      "en": [
+        "boxer",
+        "boxers"
+      ],
+      "zh-Hans": [
+        "拳师犬",
+        "拳师"
+      ],
+      "zh-Hant": [
+        "拳師犬",
+        "拳師"
+      ],
+      "yue": [
+        "拳師犬",
+        "拳師"
+      ],
+      "ar": [
+        "بوكسر"
+      ],
+      "vi": [
+        "boxer",
+        "chó boxer"
+      ],
+      "hi": [
+        "बॉक्सर"
+      ]
+    }
+  },
+  "rottweiler": {
+    "canonical": "Rottweiler",
+    "aliases_by_locale": {
+      "en": [
+        "rottweiler",
+        "rottie",
+        "rotty"
+      ],
+      "zh-Hans": [
+        "罗威纳",
+        "罗威纳犬"
+      ],
+      "zh-Hant": [
+        "羅威納",
+        "羅威納犬"
+      ],
+      "yue": [
+        "羅威納",
+        "羅威納犬"
+      ],
+      "ar": [
+        "روت وايلر"
+      ],
+      "vi": [
+        "rottweiler",
+        "chó rottweiler"
+      ],
+      "hi": [
+        "रॉटवाइलर"
+      ]
+    }
+  },
+  "poodle": {
+    "canonical": "Poodle",
+    "aliases_by_locale": {
+      "en": [
+        "poodle",
+        "standard poodle"
+      ],
+      "zh-Hans": [
+        "贵宾犬",
+        "标准贵宾犬"
+      ],
+      "zh-Hant": [
+        "貴賓犬",
+        "標準貴賓犬"
+      ],
+      "yue": [
+        "貴婦狗",
+        "貴賓"
+      ],
+      "ar": [
+        "بودل"
+      ],
+      "vi": [
+        "poodle",
+        "chó poodle"
+      ],
+      "hi": [
+        "पूडल"
+      ]
+    }
+  },
+  "toy_poodle": {
+    "canonical": "Toy Poodle",
+    "aliases_by_locale": {
+      "en": [
+        "toy poodle",
+        "tiny poodle"
+      ],
+      "zh-Hans": [
+        "玩具贵宾",
+        "玩具体贵宾"
+      ],
+      "zh-Hant": [
+        "玩具貴賓",
+        "玩具體貴賓"
+      ],
+      "yue": [
+        "玩具貴賓",
+        "玩具體貴賓"
+      ],
+      "ar": [
+        "توي بودل"
+      ],
+      "vi": [
+        "toy poodle",
+        "chó poodle toy"
+      ],
+      "hi": [
+        "टॉय पूडल"
+      ]
+    }
+  },
+  "miniature_poodle": {
+    "canonical": "Miniature Poodle",
+    "aliases_by_locale": {
+      "en": [
+        "miniature poodle",
+        "mini poodle",
+        "mini doodle"
+      ],
+      "zh-Hans": [
+        "迷你贵宾",
+        "迷你型贵宾"
+      ],
+      "zh-Hant": [
+        "迷你貴賓",
+        "迷你型貴賓"
+      ],
+      "yue": [
+        "迷你貴賓",
+        "迷你型貴賓"
+      ],
+      "ar": [
+        "ميني بودل"
+      ],
+      "vi": [
+        "mini poodle",
+        "chó poodle mini"
+      ],
+      "hi": [
+        "मिनिएचर पूडल"
+      ]
+    }
+  },
+  "labradoodle": {
+    "canonical": "Labradoodle",
+    "aliases_by_locale": {
+      "en": [
+        "labradoodle",
+        "labradoodles",
+        "lab doodle"
+      ],
+      "zh-Hans": [
+        "拉布拉多贵宾",
+        "拉布拉多杜德尔"
+      ],
+      "zh-Hant": [
+        "拉布拉多貴賓",
+        "拉布拉多杜德爾"
+      ],
+      "yue": [
+        "拉布拉多貴賓",
+        "拉布拉多杜德爾"
+      ],
+      "ar": [
+        "لابرادودل"
+      ],
+      "vi": [
+        "labradoodle",
+        "chó labradoodle"
+      ],
+      "hi": [
+        "लैब्राडूडल"
+      ]
+    }
+  },
+  "groodle": {
+    "canonical": "Groodle",
+    "aliases_by_locale": {
+      "en": [
+        "groodle",
+        "goldendoodle",
+        "golden doodle"
+      ],
+      "zh-Hans": [
+        "金毛贵宾",
+        "金毛杜德尔"
+      ],
+      "zh-Hant": [
+        "金毛貴賓",
+        "金毛杜德爾"
+      ],
+      "yue": [
+        "金毛貴賓",
+        "金毛杜德爾"
+      ],
+      "ar": [
+        "غولدندودل",
+        "غروودل"
+      ],
+      "vi": [
+        "goldendoodle",
+        "groodle"
+      ],
+      "hi": [
+        "गोल्डनडूडल"
+      ]
+    }
+  },
+  "cockapoo": {
+    "canonical": "Cockapoo",
+    "aliases_by_locale": {
+      "en": [
+        "cockapoo",
+        "cockerpoo"
+      ],
+      "zh-Hans": [
+        "可卡贵宾",
+        "可卡杜德尔"
+      ],
+      "zh-Hant": [
+        "可卡貴賓",
+        "可卡杜德爾"
+      ],
+      "yue": [
+        "可卡貴賓",
+        "可卡杜德爾"
+      ],
+      "ar": [
+        "كوكا بو",
+        "كوكاپو"
+      ],
+      "vi": [
+        "cockapoo",
+        "chó cockapoo"
+      ],
+      "hi": [
+        "कॉकेपू"
+      ]
+    }
+  },
+  "cocker_spaniel": {
+    "canonical": "Cocker Spaniel",
+    "aliases_by_locale": {
+      "en": [
+        "cocker spaniel",
+        "cocker",
+        "english cocker"
+      ],
+      "zh-Hans": [
+        "可卡犬",
+        "可卡 spaniel"
+      ],
+      "zh-Hant": [
+        "可卡犬",
+        "可卡 spaniel"
+      ],
+      "yue": [
+        "可卡犬",
+        "可卡 spaniel"
+      ],
+      "ar": [
+        "كوكر سبانييل"
+      ],
+      "vi": [
+        "cocker spaniel",
+        "chó cocker"
+      ],
+      "hi": [
+        "कॉकर स्पैनियल"
+      ]
+    }
+  },
+  "english_springer_spaniel": {
+    "canonical": "English Springer Spaniel",
+    "aliases_by_locale": {
+      "en": [
+        "english springer spaniel",
+        "springer spaniel",
+        "springer"
+      ],
+      "zh-Hans": [
+        "英国史宾格",
+        "史宾格"
+      ],
+      "zh-Hant": [
+        "英國史賓格",
+        "史賓格"
+      ],
+      "yue": [
+        "英國史賓格",
+        "史賓格"
+      ],
+      "ar": [
+        "سبانييل إنجليزي سبرينغر"
+      ],
+      "vi": [
+        "springer spaniel",
+        "chó springer"
+      ],
+      "hi": [
+        "इंग्लिश स्प्रिंगर स्पैनियल"
+      ]
+    }
+  },
+  "jack_russell_terrier": {
+    "canonical": "Jack Russell Terrier",
+    "aliases_by_locale": {
+      "en": [
+        "jack russell terrier",
+        "jack russell",
+        "jrt"
+      ],
+      "zh-Hans": [
+        "杰克罗素梗",
+        "杰克罗素"
+      ],
+      "zh-Hant": [
+        "傑克羅素梗",
+        "傑克羅素"
+      ],
+      "yue": [
+        "傑克羅素梗",
+        "傑克羅素"
+      ],
+      "ar": [
+        "جاك راسل",
+        "جاك راسل تيرير"
+      ],
+      "vi": [
+        "jack russell",
+        "chó jack russell"
+      ],
+      "hi": [
+        "जैक रसेल टेरियर"
+      ]
+    }
+  },
+  "west_highland_white_terrier": {
+    "canonical": "West Highland White Terrier",
+    "aliases_by_locale": {
+      "en": [
+        "west highland white terrier",
+        "westie",
+        "west highland terrier"
+      ],
+      "zh-Hans": [
+        "西高地白梗",
+        "西高地"
+      ],
+      "zh-Hant": [
+        "西高地白梗",
+        "西高地"
+      ],
+      "yue": [
+        "西高地白梗",
+        "西高地"
+      ],
+      "ar": [
+        "ويستي",
+        "ويست هايلاند"
+      ],
+      "vi": [
+        "westie",
+        "chó westie"
+      ],
+      "hi": [
+        "वेस्ट हाईलैंड व्हाइट टेरियर"
+      ]
+    }
+  },
+  "whippet": {
+    "canonical": "Whippet",
+    "aliases_by_locale": {
+      "en": [
+        "whippet",
+        "whippets",
+        "whippit"
+      ],
+      "zh-Hans": [
+        "惠比特",
+        "惠比特犬"
+      ],
+      "zh-Hant": [
+        "惠比特",
+        "惠比特犬"
+      ],
+      "yue": [
+        "惠比特",
+        "惠比特犬"
+      ],
+      "ar": [
+        "ويبت"
+      ],
+      "vi": [
+        "whippet",
+        "chó whippet"
+      ],
+      "hi": [
+        "व्हिपेट"
+      ]
+    }
+  },
+  "greyhound": {
+    "canonical": "Greyhound",
+    "aliases_by_locale": {
+      "en": [
+        "greyhound",
+        "grayhound",
+        "greyhound dog"
+      ],
+      "zh-Hans": [
+        "格力犬",
+        "灵缇"
+      ],
+      "zh-Hant": [
+        "格力犬",
+        "靈緹"
+      ],
+      "yue": [
+        "格力犬",
+        "靈緹"
+      ],
+      "ar": [
+        "غريهاوند"
+      ],
+      "vi": [
+        "greyhound",
+        "chó đua"
+      ],
+      "hi": [
+        "ग्रेहाउंड"
+      ]
+    }
+  },
+  "samoyed": {
+    "canonical": "Samoyed",
+    "aliases_by_locale": {
+      "en": [
+        "samoyed",
+        "sammy"
+      ],
+      "zh-Hans": [
+        "萨摩耶",
+        "萨摩"
+      ],
+      "zh-Hant": [
+        "薩摩耶",
+        "薩摩"
+      ],
+      "yue": [
+        "薩摩耶"
+      ],
+      "ar": [
+        "سامويد"
+      ],
+      "vi": [
+        "samoyed",
+        "chó samoyed"
+      ],
+      "hi": [
+        "समोयेड"
+      ]
+    }
+  },
+  "bernese_mountain_dog": {
+    "canonical": "Bernese Mountain Dog",
+    "aliases_by_locale": {
+      "en": [
+        "bernese mountain dog",
+        "bernese",
+        "berner"
+      ],
+      "zh-Hans": [
+        "伯恩山犬",
+        "伯尔尼山犬"
+      ],
+      "zh-Hant": [
+        "伯恩山犬",
+        "伯爾尼山犬"
+      ],
+      "yue": [
+        "伯恩山犬",
+        "伯爾尼山犬"
+      ],
+      "ar": [
+        "برنيز ماونتن دوغ"
+      ],
+      "vi": [
+        "bernese mountain dog",
+        "chó bernese"
+      ],
+      "hi": [
+        "बर्नीज़ माउंटेन डॉग"
+      ]
+    }
+  },
+  "great_dane": {
+    "canonical": "Great Dane",
+    "aliases_by_locale": {
+      "en": [
+        "great dane",
+        "dane"
+      ],
+      "zh-Hans": [
+        "大丹犬",
+        "大丹"
+      ],
+      "zh-Hant": [
+        "大丹犬",
+        "大丹"
+      ],
+      "yue": [
+        "大丹犬",
+        "大丹"
+      ],
+      "ar": [
+        "الدانماركي العظيم",
+        "غريت دين"
+      ],
+      "vi": [
+        "great dane",
+        "chó great dane"
+      ],
+      "hi": [
+        "ग्रेट डेन"
+      ]
+    }
+  },
+  "doberman_pinscher": {
+    "canonical": "Doberman Pinscher",
+    "aliases_by_locale": {
+      "en": [
+        "doberman pinscher",
+        "doberman",
+        "dobie"
+      ],
+      "zh-Hans": [
+        "杜宾犬",
+        "杜宾"
+      ],
+      "zh-Hant": [
+        "杜賓犬",
+        "杜賓"
+      ],
+      "yue": [
+        "杜賓犬",
+        "杜賓"
+      ],
+      "ar": [
+        "دوبرمان",
+        "دوبرمان بينشر"
+      ],
+      "vi": [
+        "doberman",
+        "chó doberman"
+      ],
+      "hi": [
+        "डोबरमैन",
+        "डोबी"
+      ]
+    }
+  },
+  "akita_inu": {
+    "canonical": "Akita Inu",
+    "aliases_by_locale": {
+      "en": [
+        "akita inu",
+        "akita",
+        "japanese akita"
+      ],
+      "zh-Hans": [
+        "秋田犬",
+        "日系秋田"
+      ],
+      "zh-Hant": [
+        "秋田犬",
+        "日系秋田"
+      ],
+      "yue": [
+        "秋田犬",
+        "日系秋田"
+      ],
+      "ar": [
+        "أكيتا",
+        "أكيتا إينو"
+      ],
+      "vi": [
+        "akita",
+        "chó akita"
+      ],
+      "hi": [
+        "अकिता",
+        "अकिता इनु"
+      ]
+    }
+  },
+  "bernedoodle": {
+    "canonical": "Bernedoodle",
+    "aliases_by_locale": {
+      "en": [
+        "bernedoodle",
+        "berne doodle"
+      ],
+      "zh-Hans": [
+        "伯恩山贵宾",
+        "伯尔尼山贵宾"
+      ],
+      "zh-Hant": [
+        "伯恩山貴賓",
+        "伯爾尼山貴賓"
+      ],
+      "yue": [
+        "伯恩山貴賓",
+        "伯爾尼山貴賓"
+      ],
+      "ar": [
+        "برنيدودل"
+      ],
+      "vi": [
+        "bernedoodle",
+        "chó bernedoodle"
+      ],
+      "hi": [
+        "बर्नेडूडल"
+      ]
+    }
+  },
+  "maltipoo": {
+    "canonical": "Maltipoo",
+    "aliases_by_locale": {
+      "en": [
+        "maltipoo",
+        "malt-a-poo"
+      ],
+      "zh-Hans": [
+        "马尔济斯贵宾",
+        "玛尔济斯贵宾"
+      ],
+      "zh-Hant": [
+        "馬爾濟斯貴賓",
+        "瑪爾濟斯貴賓"
+      ],
+      "yue": [
+        "馬爾濟斯貴賓",
+        "瑪爾濟斯貴賓"
+      ],
+      "ar": [
+        "مالتيبو"
+      ],
+      "vi": [
+        "maltipoo",
+        "chó maltipoo"
+      ],
+      "hi": [
+        "माल्टीपू"
+      ]
+    }
+  },
+  "maremma_sheepdog": {
+    "canonical": "Maremma Sheepdog",
+    "aliases_by_locale": {
+      "en": [
+        "maremma sheepdog",
+        "maremma"
+      ],
+      "zh-Hans": [
+        "马雷玛牧羊犬",
+        "马雷马"
+      ],
+      "zh-Hant": [
+        "馬雷瑪牧羊犬",
+        "馬雷瑪"
+      ],
+      "yue": [
+        "馬雷瑪牧羊犬",
+        "馬雷瑪"
+      ],
+      "ar": [
+        "ماريما"
+      ],
+      "vi": [
+        "maremma",
+        "chó maremma"
+      ],
+      "hi": [
+        "मैरेम्मा शीपडॉग"
+      ]
+    }
+  },
+  "shetland_sheepdog": {
+    "canonical": "Shetland Sheepdog",
+    "aliases_by_locale": {
+      "en": [
+        "shetland sheepdog",
+        "sheltie",
+        "shelties"
+      ],
+      "zh-Hans": [
+        "喜乐蒂牧羊犬",
+        "谢德兰牧羊犬"
+      ],
+      "zh-Hant": [
+        "喜樂蒂牧羊犬",
+        "謝德蘭牧羊犬"
+      ],
+      "yue": [
+        "喜樂蒂牧羊犬",
+        "謝德蘭牧羊犬"
+      ],
+      "ar": [
+        "شيلتي",
+        "شيتلاند شيبدوغ"
+      ],
+      "vi": [
+        "sheltie",
+        "chó shetland"
+      ],
+      "hi": [
+        "शेटलैंड शीपडॉग",
+        "शेल्टी"
+      ]
+    }
+  },
+  "border_terrier": {
+    "canonical": "Border Terrier",
+    "aliases_by_locale": {
+      "en": [
+        "border terrier",
+        "borderie terrier"
+      ],
+      "zh-Hans": [
+        "边境梗",
+        "边境梗犬"
+      ],
+      "zh-Hant": [
+        "邊境梗",
+        "邊境梗犬"
+      ],
+      "yue": [
+        "邊境梗",
+        "邊境梗犬"
+      ],
+      "ar": [
+        "بوردر تيرير"
+      ],
+      "vi": [
+        "border terrier",
+        "chó border terrier"
+      ],
+      "hi": [
+        "बॉर्डर टेरियर"
+      ]
+    }
+  },
+  "boston_terrier": {
+    "canonical": "Boston Terrier",
+    "aliases_by_locale": {
+      "en": [
+        "boston terrier",
+        "boston"
+      ],
+      "zh-Hans": [
+        "波士顿梗",
+        "波士顿犬"
+      ],
+      "zh-Hant": [
+        "波士頓梗",
+        "波士頓犬"
+      ],
+      "yue": [
+        "波士頓梗",
+        "波士頓犬"
+      ],
+      "ar": [
+        "بوستون تيرير"
+      ],
+      "vi": [
+        "boston terrier",
+        "chó boston"
+      ],
+      "hi": [
+        "बोस्टन टेरियर"
+      ]
+    }
+  },
+  "miniature_american_shepherd": {
+    "canonical": "Miniature American Shepherd",
+    "aliases_by_locale": {
+      "en": [
+        "miniature american shepherd",
+        "mini aussie",
+        "mini aussie shepherd"
+      ],
+      "zh-Hans": [
+        "迷你美国牧羊犬",
+        "迷你澳牧"
+      ],
+      "zh-Hant": [
+        "迷你美國牧羊犬",
+        "迷你澳牧"
+      ],
+      "yue": [
+        "迷你美國牧羊犬",
+        "迷你澳牧"
+      ],
+      "ar": [
+        "راعي أمريكي مصغر"
+      ],
+      "vi": [
+        "mini aussie",
+        "chó mini aussie"
+      ],
+      "hi": [
+        "मिनिएचर अमेरिकन शेफर्ड"
+      ]
+    }
+  },
+  "bull_terrier": {
+    "canonical": "Bull Terrier",
+    "aliases_by_locale": {
+      "en": [
+        "bull terrier",
+        "bullie"
+      ],
+      "zh-Hans": [
+        "牛头梗",
+        "斗牛梗"
+      ],
+      "zh-Hant": [
+        "牛頭梗",
+        "鬥牛梗"
+      ],
+      "yue": [
+        "牛頭梗",
+        "鬥牛梗"
+      ],
+      "ar": [
+        "بول تيرير"
+      ],
+      "vi": [
+        "bull terrier",
+        "chó bull terrier"
+      ],
+      "hi": [
+        "बुल टेरियर"
+      ]
+    }
+  },
+  "miniature_pinscher": {
+    "canonical": "Miniature Pinscher",
+    "aliases_by_locale": {
+      "en": [
+        "miniature pinscher",
+        "min pin",
+        "mini pin"
+      ],
+      "zh-Hans": [
+        "迷你品犬",
+        "迷你杜宾"
+      ],
+      "zh-Hant": [
+        "迷你品犬",
+        "迷你杜賓"
+      ],
+      "yue": [
+        "迷你品犬",
+        "迷你杜賓"
+      ],
+      "ar": [
+        "ميني بنشر"
+      ],
+      "vi": [
+        "mini pin",
+        "chó mini pin"
+      ],
+      "hi": [
+        "मिनिएचर पिंशर"
+      ]
+    }
+  },
+  "toy_fox_terrier": {
+    "canonical": "Toy Fox Terrier",
+    "aliases_by_locale": {
+      "en": [
+        "toy fox terrier",
+        "toy fox"
+      ],
+      "zh-Hans": [
+        "玩具猎狐梗",
+        "玩具狐梗"
+      ],
+      "zh-Hant": [
+        "玩具獵狐梗",
+        "玩具狐梗"
+      ],
+      "yue": [
+        "玩具獵狐梗",
+        "玩具狐梗"
+      ],
+      "ar": [
+        "توي فوكس تيرير"
+      ],
+      "vi": [
+        "toy fox terrier",
+        "chó toy fox"
+      ],
+      "hi": [
+        "टॉय फ़ॉक्स टेरियर"
+      ]
+    }
+  }
+}

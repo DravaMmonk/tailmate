@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "id": "diagnosis",
+      "patterns_en": [
+        "\\b(?:does|is|could|can)\\b.*\\b(?:have|be)\\b.*\\b(?:parvo|tumou?r|cancer|infection|seizure)\\b",
+        "\\bdiagnos(?:e|is|ing)\\b",
+        "\\b(?:is this|could this be|does my dog have)\\b"
+      ],
+      "terms_by_locale": {
+        "zh-Hans": ["诊断", "肿瘤", "肿块"],
+        "yue": ["診斷", "腫瘤", "腫塊"],
+        "en": ["tumour"],
+        "ar": ["تشخيص", "ورم"],
+        "vi": ["u bướu", "khối u"],
+        "hi": ["निदान", "ट्यूमर"]
+      }
+    },
+    {
+      "id": "medication_dose",
+      "patterns_en": [
+        "\\bhow much\\b.*\\b(?:mg|ml|milligram|milliliter|dose|dosage)\\b",
+        "\\bwhat dose\\b",
+        "\\b(?:ibuprofen|paracetamol|acetaminophen|metronidazole|amoxicillin|antibiotics?)\\b"
+      ],
+      "terms_by_locale": {
+        "zh-Hans": ["剂量", "多少mg", "多少 ml", "布洛芬"],
+        "yue": ["劑量"],
+        "en": ["ibuprofen"],
+        "ar": ["جرعة", "إيبوبروفين"],
+        "vi": ["liều", "ibuprofen cho chó"],
+        "hi": ["खुराक", "इबुप्रोफेन"]
+      }
+    },
+    {
+      "id": "emergency_triage",
+      "patterns_en": [
+        "\\b(?:rat poison|poison|toxin|toxic|chocolate|xylitol|grapes?|raisins?)\\b",
+        "\\b(?:not breathing|can't breathe|cannot breathe|difficulty breathing|collapsed|collapse)\\b",
+        "\\bseizures?\\b"
+      ],
+      "terms_by_locale": {
+        "zh-Hans": ["老鼠药", "中毒", "巧克力", "不能呼吸", "抽搐", "毒"],
+        "yue": ["老鼠藥", "沒辦法呼吸"],
+        "ar": ["سم", "تسمم", "لا يتنفس", "نوبة"],
+        "vi": ["trúng độc", "không thở", "co giật", "sập xuống"],
+        "hi": ["ज़हर", "साँस नहीं", "दौरा", "गिर पड़ा"]
+      }
+    },
+    {
+      "id": "post_surgery",
+      "patterns_en": [
+        "\\bpost[- ]?surgery\\b",
+        "\\bafter (?:the )?(?:operation|surgery)\\b",
+        "\\bstitches?\\b",
+        "\\bincision\\b"
+      ],
+      "terms_by_locale": {
+        "zh-Hans": ["手术后", "拆线", "伤口"],
+        "yue": ["手術後", "拆線", "傷口"],
+        "ar": ["بعد العملية", "الغرز"],
+        "vi": ["sau phẫu thuật", "cắt chỉ", "vết mổ"],
+        "hi": ["ऑपरेशन के बाद", "टांके", "चीरा"]
+      }
+    },
+    {
+      "id": "prescription_authorisation",
+      "patterns_en": [
+        "\\bcan i give\\b.*\\b(?:human|my)\\b.*\\b(?:antibiotics?|medication|medicine|painkillers?)\\b",
+        "\\bprescription\\b"
+      ],
+      "terms_by_locale": {
+        "zh-Hans": ["人用抗生素", "处方"],
+        "yue": ["人類抗生素", "處方"],
+        "ar": ["مضاد حيوي بشري", "وصفة"],
+        "vi": ["kháng sinh của người", "thuốc của người"],
+        "hi": ["मानव एंटीबायोटिक", "पर्चा"]
+      }
+    }
+  ]
+}

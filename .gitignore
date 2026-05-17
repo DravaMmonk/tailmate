@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local environment and helper binaries
+.env
+cloud-sql-proxy
+.agent_engine_build/
+.claude/
+/- 
+
+# Local ADK state
+.adk/
+*.db
+.DS_Store

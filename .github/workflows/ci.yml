@@ -1,0 +1,89 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pr_checks:
+    name: Pull Request Checks
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install project dependencies
+        run: uv sync --group dev --frozen
+
+      - name: Run lint checks
+        run: uv run ruff check src tests
+
+      - name: Run type checks
+        run: uv run mypy
+
+      - name: Run Bandit security scan
+        run: uv run bandit -c pyproject.toml -r src
+
+      - name: Run dependency vulnerability scan
+        run: |
+          tmp_requirements="$(mktemp)"
+          uv export --frozen --no-dev --no-emit-project --no-hashes --format requirements-txt -o "$tmp_requirements"
+          uv run pip-audit -r "$tmp_requirements"
+
+      - name: Run unit tests
+        run: uv run python -m pytest tests/unit
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-xml
+          path: coverage.xml
+
+      - name: Run contract tests
+        run: uv run python -m pytest --no-cov tests/contract
+
+  integration_checks:
+    name: Integration Checks
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install project dependencies
+        run: uv sync --group dev --frozen
+
+      - name: Run integration tests
+        run: uv run python -m pytest --no-cov tests/integration

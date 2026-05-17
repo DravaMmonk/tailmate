@@ -1,0 +1,32 @@
+{
+  "name": "tailmate-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd tailmate-web && vite",
+    "build": "cd tailmate-web && tsc --noEmit && vite build",
+    "preview": "cd tailmate-web && vite preview",
+    "typecheck": "cd tailmate-web && tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "clsx": "^2.1.1",
+    "firebase": "^12.11.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.7.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.13.2",
+    "remark-gfm": "^4.0.1",
+    "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3"
+  }
+}

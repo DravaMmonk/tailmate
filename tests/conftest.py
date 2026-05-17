@@ -1,0 +1,93 @@
+from __future__ import annotations
+
+from collections.abc import Callable, Mapping
+from typing import Any
+
+import pytest
+
+
+RUNTIME_ENV_KEYS = (
+    "CLOUD_ML_REGION",
+    "DB_HOST",
+    "DB_NAME",
+    "DB_PASSWORD",
+    "DB_USER",
+    "FFMPEG_BINARY",
+    "GOOGLE_API_KEY",
+    "GOOGLE_CLOUD_LOCATION",
+    "GOOGLE_CLOUD_PROJECT",
+    "TAILMATE_AGENT_ENGINE_DEPLOYMENT_MODE",
+    "TAILMATE_AGENT_ENGINE_RESOURCE_NAME",
+    "TAILMATE_AGENT_ENGINE_STAGING_BUCKET",
+    "TAILMATE_AGENT_NAME",
+    "TAILMATE_ALEMBIC_DATABASE_URL",
+    "TAILMATE_DB_CONNECT_TIMEOUT_SECONDS",
+    "TAILMATE_DB_GATEWAY_REQUIRE_AUTH",
+    "TAILMATE_DB_GATEWAY_TIMEOUT_SECONDS",
+    "TAILMATE_DB_GATEWAY_URL",
+    "TAILMATE_DB_IP",
+    "TAILMATE_DB_NAME",
+    "TAILMATE_DB_PASSWORD",
+    "TAILMATE_DB_SSLMODE",
+    "TAILMATE_DB_USER",
+    "TAILMATE_DISABLED_SKILLS",
+    "TAILMATE_DNS_PEERING_DOMAIN",
+    "TAILMATE_DNS_PEERING_TARGET_NETWORK",
+    "TAILMATE_DNS_PEERING_TARGET_PROJECT",
+    "TAILMATE_EMBEDDING_MODEL",
+    "TAILMATE_ENABLED_SKILLS",
+    "TAILMATE_ENV",
+    "TAILMATE_EXTRACTION_STRATEGY",
+    "TAILMATE_GATEWAY_ENABLE_INTERNAL_DB",
+    "TAILMATE_GATEWAY_ENABLE_PUBLIC_QUERY",
+    "TAILMATE_GEMINI_API_KEY",
+    "TAILMATE_GEMINI_FLASH_MODEL",
+    "TAILMATE_GEMINI_LOCATION",
+    "TAILMATE_GEMINI_PRO_MODEL",
+    "TAILMATE_GEMINI_TIMEOUT_SECONDS",
+    "TAILMATE_INTENT_CLASSIFIER",
+    "TAILMATE_INTENT_LLM_CONFIDENCE_THRESHOLD",
+    "TAILMATE_KB_ENABLED",
+    "TAILMATE_KB_THRESHOLD",
+    "TAILMATE_LOCAL_MEDIA_ROOT",
+    "TAILMATE_LOCAL_TUNNEL_HOST",
+    "TAILMATE_LOCAL_TUNNEL_PORT",
+    "TAILMATE_LOCATION",
+    "TAILMATE_MEDIA_BUCKET",
+    "TAILMATE_NETWORK_ATTACHMENT",
+    "TAILMATE_NO_PROXY",
+    "TAILMATE_OUTBOUND_PROXY_URL",
+    "TAILMATE_PROJECT_ID",
+    "TAILMATE_SERVICE_ACCOUNT",
+    "TAILMATE_SKIP_LOCAL_BOOTSTRAP",
+    "TAILMATE_SMOKE_DOG_ID",
+    "TAILMATE_SMOKE_MESSAGE",
+    "TAILMATE_SMOKE_SESSION_ID",
+    "TAILMATE_SMOKE_USER_ID",
+    "TAILMATE_TEST_UI_DEFAULT_DOG_ID",
+    "TAILMATE_TEST_UI_DEFAULT_MESSAGE",
+    "TAILMATE_TEST_UI_MAX_UPLOAD_BYTES",
+    "TAILMATE_TEST_UI_TITLE",
+    "TAILMATE_TEST_UI_USER_ID",
+    "K_SERVICE",
+)
+
+
+@pytest.fixture(autouse=True)
+def clear_runtime_env(monkeypatch: pytest.MonkeyPatch) -> None:
+    for key in RUNTIME_ENV_KEYS:
+        monkeypatch.delenv(key, raising=False)
+
+
+@pytest.fixture
+def set_env_values(
+    monkeypatch: pytest.MonkeyPatch,
+) -> Callable[[Mapping[str, Any]], None]:
+    def apply(values: Mapping[str, Any]) -> None:
+        for key, value in values.items():
+            if value is None:
+                monkeypatch.delenv(key, raising=False)
+                continue
+            monkeypatch.setenv(key, str(value))
+
+    return apply
